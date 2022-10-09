@@ -35,6 +35,9 @@ ProductModel productModel ;
                         color: Colors.grey ,
                         fontSize: 16,
                         fontWeight:  FontWeight.bold
+
+
+
                     ),
                     ),
                   )
