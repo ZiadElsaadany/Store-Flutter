@@ -36,7 +36,7 @@ class Homepage extends StatelessWidget {
                   ),
                   Expanded(
                     child: GridView.builder(
-                      physics: BouncingScrollPhysics(),
+                      physics: const BouncingScrollPhysics(),
                       clipBehavior: Clip.none,
                       itemBuilder: (ctx, index) {
                         return CustomCard(productModel: snapshot.data![index],);
@@ -55,7 +55,7 @@ class Homepage extends StatelessWidget {
               );
             }
             else{
-              return Center(child: CircularProgressIndicator());
+              return Center(child: const CircularProgressIndicator());
             }
 
 

@@ -22,7 +22,7 @@ class AddProduct {
           'category' : category
         } ,
 
-    )      ;
+    ) ;
     return ProductModel.fromjson(data) ;
   }
   
